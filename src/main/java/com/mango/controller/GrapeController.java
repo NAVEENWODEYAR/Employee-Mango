@@ -31,7 +31,7 @@ public class GrapeController
 	public List<Grape> getGrapeData(List<Grape> gp)
 	{
 		List<Grape> g1 = gService.getGrapeData(gp);
-     System.out.println("get grapes List");
+     System.out.println("get all the grapes List");
 					return g1;
 	}
 }
