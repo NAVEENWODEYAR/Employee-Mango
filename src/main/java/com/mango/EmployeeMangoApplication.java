@@ -9,7 +9,7 @@ public class EmployeeMangoApplication
 
 	public static void main(String[] args) 
 	{
-		System.out.println("Started..,");
+		System.out.println("Employee Mango Appliy started..,");
 		SpringApplication.run(EmployeeMangoApplication.class, args);
 	}
 
