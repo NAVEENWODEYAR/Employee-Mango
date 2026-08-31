@@ -23,7 +23,7 @@ public class GrapeController
 	@PostMapping("/insertGrapeData")
 	public Grape insertGrapeData(@RequestBody Grape gp)
 	{
-System.out.println("Inserting record");
+System.out.println("Inserting new record");
 		return gService.insertGrapeData(gp);
 	}
 	
